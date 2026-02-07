@@ -1,7 +1,5 @@
 # e-plantShopping
-This repository contains my final project for IBM's *Developing Front-End Apps with React* course, part of the *IBM Full Stack Developer Professional Certificate* on Coursera. 
-
-The goal of this project was to apply core React concepts by transforming a provided starter template into a fully interactive e-commerce application using React and Redux. 
+This repository contains my final project for IBM's *Developing Front-End Apps with React* course, part of the *IBM Full Stack Developer Professional Certificate* on Coursera. The goal of this project was to apply core React concepts to transform the provided application template into a fully interactive e-commerce application using React and Redux.
 
 ## Table of Contents
 
@@ -10,22 +8,20 @@ The goal of this project was to apply core React concepts by transforming a prov
 - [My Role](#my-role)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-- [What I Learned](#what-i-learned)
 
 ## Course Information 
-*Developing Front-End Apps with React* is part of IBM's *Full Stack Developer Professional Certificate*. The course provides a strong foundation in React, focusing on how it works under the hood and how to apply it in real-world applications. Throughout the course, I learned React fundamentals through hands-on labs and projects using IBM's skill network. These projects leveraged Vite as the build tool, chosen for it's efficient workflow to build applications.
+*Developing Front-End Apps with React* provides an introduction to front-end development. It explains the scope of a front-end developer, which focuses on what a user can see and interact with. The course introduces front-end frameworks and explains their purpose to accelerate application development. It also covers essential tools for building appealing interfaces and managing the state of the application. The course uses React, demonstrating how it works under the hood and how to apply it in real-world applications.
 
 ## Project Purpose
-*Paradise Nursery* is an online plant shop that sells a variety of houseplants. The purpose of this project was to implement the core functionality of the shop using React and Redux, turning a static template into a dynamic, state-driven application.
+*Paradise Nursery* is an online plant shop that sells a variety of houseplants. A user can browse the plant catalog and add items to their cart without difficulty. The purpose of this project is to implement the core functionality of the shop using React and Redux, turning a static template into a dynamic, state-driven application.
 
 ## My Role
-As the front-end developer, I was responsible for implementing application functionality using React and Redux. My tasks included: 
-- Enabling users to browse a catalog of houseplants
-- Displaying relevant product details for each item
-- Implementing a shopping cart with add and remove functionality
-- Managing global application state using Redux
-- Ensuring seamless navigation between pages without losing cart data
-- Deploying the completed application to GitHub Pages
+I was provided with the skeleton of the application, built with Vite. As the front-end developer, I was responsible for implementing application functionality using React and Redux. My tasks included: 
+- Enable a user to browse a catalog of houseplants by category
+- Display relevant product details for each item, including title, image, description, and price
+- Implement a shopping cart a user can use to add and remove a items
+- Manage the global state using Redux
+- Deploy completed application to GitHub Pages
 
 ## Tech Stack
 - Vite - Build tool and development server
@@ -37,7 +33,7 @@ As the front-end developer, I was responsible for implementing application funct
 - GitHub Pages - Deployment
 
 ## Getting started
-You can explore the project either by running it locally or by viewing the deployed version on GitHub Pages.
+The project can be explored locally or by viewing the deployed application on GitHub Pages.
 
 ### Accessing with GitHub Pages
 
@@ -67,18 +63,3 @@ The project is deployed and accessible online through GitHub Pages. You can view
     
     `npm run preview`
 
-## What I Learned
-### React Fundamentals
-- Learned how the Virtual DOM works to efficiently update UI.
-- Introduced to React Hooks: `useState`, `useEffect`, `useContext`, and learned how custom hooks are used.
-- Explored the types of components including functional, class, and HOC and how they are building blocks in UI.
-
-### Redux
-- Learned how Redux provides predictable global state management.
-- Implemented core concepts: **actions**, **reducers**, and the **store**.
-- Understood when and why to use Redux. It benefits larger applications particularly those who want a centralized state and easier data access across components.
-
-### Vite
-- Learned the benefits of Vite: Fast and efficient development, modern Javascript support, and small build size.
-- Explored Vite's project structure, directories and files. 
-- Gained a broader understanding of build tools and their general purpose.
