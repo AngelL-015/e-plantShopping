@@ -49,7 +49,7 @@ The project is deployed and accessible online through GitHub Pages. You can view
 ### Run the Project Locally
 1. Clone the repository
 
-    `github clone <repository-url>`
+    `git clone <repository-url>`
 
 2. Navigate into the project directory
     
